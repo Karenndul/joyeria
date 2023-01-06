@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>                
+        <link rel="stylesheet" href="css/style.css">
+        <title>BEHMIO</title>
+    </head>
+    <body>      
+        <!-- header -->
+        <div w3-include-html="header.html"></div>
+        <!-- fin de header -->
+        <!-- inicio de main -->
+        <main>
+            <!-- inicio de carrucel -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="assets/img/JOYERÍA.png" class="d-block w-1 carr" alt="5">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/img/JOYERÍA_2.png" class="d-block w-1 carr" alt="5">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/img/JOYERÍA_3.png" class="d-block w-1 carr" alt="5">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/img/JOYERÍA_4.png" class="d-block w-1 carr" alt="5">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="assets/img/JOYERÍA_5.png" class="d-block w-1 carr" alt="5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- fin de carrucel -->
+            <!-- sección de cards clasificación de joyería -->
+            <section class="clasificacion my-5">
+                <!-- card de inicio de section clasificaciòn -->
+                <div class="card text-center mt-5">
+                    <div class="card-body">
+                        <h4 class="card-title">JOYERÍA</h4>
+                        <h5 class="card-title">Clasificación y procesos</h5>
+                    </div>
+                    <div class="card-footer text-muted">
+                        oro │ chapa en oro │ baño de oro
+                    </div>
+                </div>
+                <!-- fin de card -->
+                <div class="row row-cols-1 row-cols-md-4 g-4 my-5 px-5">  
+                    <!-- card de oro -->
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/oro.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ORO</h5>
+                                <p class="card-text">Es un metal blando y maleable. En joyería se mezcla con otros metales como el cobre, níquel o plata para obtener mayor dureza en las piezas. Su pureza se expresa en kilates (k). Es un metal muy resistente a la oxidación.</p>                            
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin de card -->
+                    <!-- card de oro laminado -->
+                    <div class="col">
+                        
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/laminado.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ORO LAMINADO </h5>
+                                <p class="card-text">También conocido como chapa en oro. Consiste en un metal recubierto de una capa de oro adherida por calor y compresión. Esta capa de oro debe corresponder al 5% del peso total de la pieza. Son más resistentes y duraderas que las fabricadas por otros métodos.</p>                            
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin de card -->                   
+                    <!-- card de baño de oro -->
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/img/baño.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">  BAÑO DE ORO </h5>
+                                <p class="card-text">En este proceso se deposita una fina capa de oro sobre un metal, generalmente por una reacción electroquímica. Hay 3 tipos, que se distinguen por el espesor de la capa de oro y el metal base.</p>
+                                <ul class="tipos_baño">
+                                    <li>Flash Plated</li>
+                                    <li>Gold Plated</li>
+                                    <li>Gold Vermeil</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tipos_baños">
+                                    Ver más
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- fin de card -->
+                </div>
+            </section>      
+            <!-- fin de sección de cards clasificación de joyería --> 
+            <!-- inicio de section de tendencias   -->
+            <section class="tendencias my-5">
+                <!-- card de inicio de tendencias -->
+                <div class="card text-center mt-5">
+                    <div class="card-body">
+                        <h4 class="card-title">Tendencias</h4>
+                        <h5 class="card-title">Accesorios</h5>
+                    </div>
+                    <div class="card-footer text-muted">
+                        PRIMAVERA-VERANO
+                    </div>
+                </div>
+                <!-- fin de card -->
+                <!-- cards de accesorios -->
+                <div class="row row-cols-1 row-cols-md-3 g-4 my-5 px-5">
+                    <!-- card de cuentas -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/cuentas.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">JOYERÍA CON CUENTAS</h5>
+                                <p class="card-text">Dentro de las tendencias en joyería de verano 2021. Actuando como el accesorio perfecto para agregar influencia y ruido a un look.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin de card -->
+                    <!-- card de perlas -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/perlas.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PERLAS</h5>
+                                <p class="card-text">Las perlas son atemporales y elegantes. Los diseñadores encontraron una manera de jugar con ellas de forma vanguardista. Veremos muchas perlas naturales y/o de  río.</p>
+                            </div>
+                        </div>
+                    </div>    
+                    <!-- fin de card -->
+                    <!-- card de argollas -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/argolla.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ARETES DE ARGOLLA GRUESA</h5>
+                                <p class="card-text">Se destacaron los aros de argollas gruesas de todos los tamaños. Los más pequeños son ideales para usar todos los días. Y para un look de noche llamativo, puedes usar argollas gruesas de tamaño XL.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin de card -->
+                    <!-- card de piercings -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/piercings.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PIERCINGS (ARETES DESIGUALES)</h5>
+                                <p class="card-text">Ahora lo que se lleva es combinar diferentes modelos que nada tengan que ver entre sí pero que converjan en un look coherente. Mezcla diferentes largos y estilos en un mismo lóbulo. El resultado es sobresaliente y súper personal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin de card -->
+                    <!-- card de anillos y cadenas -->
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/chunky.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">CADENAS Y ANILLOS CHUNKY</h5>
+                                <p class="card-text">Entraron en el 2020 y sigue como tendencia. La idea es que tu look se vea excesivo. Con un accesorio o dos puedas llamar la atención y darle un toque super lindo a tu outfit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin de card -->
+                </div>
+                <!-- fin de card -->
+            </section>  
+            <!-- fin de section de tendencias -->
+            <!-- Modal de tipos de baños -->
+            <div class="card-footer text-muted modal fade" id="tipos_baños" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Tipos de Baño</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- card de flash plated -->
+                        <div class="modal-body modal-dialog modal-dialog-scrollable">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="assets/img/flash_plated.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">FLASH PLATED</h5>
+                                        <p class="card-text">Es un revestimiento de una capa super delgada de oro (menor a 0.5 micras) por lo cual se desgastará rápido y necesitará alto mantenimiento. Es muy común en joyería Fast Fashion y el precio es económico.</p>                                        
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin de card -->
+                        <hr>
+                        <!-- card de gold plated -->
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="card mb-3" style="max-width: 470px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="assets/img/gold_plated.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GOLD PLATED</h5>
+                                        <p class="card-text">Este tipo de tratamiento genera una capa con mayor grosor que en el flash plated. Entre más gruesa la capa, más duradera. Tiene una vida corta y debe tener ciertos cudados. El precio de estas piezas varía dependiendo del grosor de la capa de oro.</p>                                        
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin de card -->
+                        <hr>
+                        <!-- card de gold vermeil -->
+                        <div class="modal-body modal-dialog modal-dialog-scrollable">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                    <img src="assets/img/gold_vermeil.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GOLD VERMEIL</h5>
+                                        <p class="card-text">Las piezas tipo GOLD VERMEIL consisten en un recubrimiento de oro estrictamente sobre PLATA. El grosor de la capa debe ser igual o mayor a 2.5 micras de oro con una mínima pureza de 10k, lo cual le otorga una mayor durabilidad.</p>                                        
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin de card -->
+                    </div>
+                </div>
+            </div>
+            <!-- fin de modal de tipos de baño -->
+        </main>
+        <!-- fin de main -->
+        <!-- inicio de footer -->
+        <footer id = "footer" class="py-5 px-5 row">
+            <!-- columna de contactos -->
+            <div class="col">
+                <nav class="nav flex-column">
+                    <h1>Contactos</h1>
+                    <ul class="nav flex-column">
+                        <!-- ancla de whatsapp -->
+                        <li class="nav-item my-2">                        
+                            <a href="https://api.whatsapp.com/send/?phone=%2B527711899881&text&app_absent=0" target="_blank"><i class="fa-brands fa-whatsapp me-2 wa"></i> Mandar mensaje</a>
+                        </li>
+                        <!-- ancla de instagram -->
+                        <li class="nav-item my-2">
+                            <a href="https://www.instagram.com/behmio.studio/" target="_blank"><i class="fa-brands fa-instagram me-2 ins"></i>Visitar cuenta</a>
+                        </li>                    
+                    </ul>
+                </nav>
+            </div> 
+            <!-- fin de columna -->
+            <!-- columna de dirección -->
+            <div class="col-10">
+                <nav class="nav flex-column">
+                    <h1>Dirección</h1>
+                    <ul class="nav flex-column">
+                        <li class="nav-item my-2">                        
+                            <a href="https://www.google.com/maps/place/Behmio+Studio/@20.1134583,-98.7470172,17z/data=!3m1!4b1!4m5!3m4!1s0x85d10949d451e051:0x1e8e0a16741656d5!8m2!3d20.1134583!4d-98.7448285?hl=en-MX" target="_blank"><i class="fa-solid fa-location-dot me-2 gps"></i>AV Revolución 1307 Plaza Bella, Local 25-A Periodistas, 42060 Pachuca de Soto, Hgo.</a>
+                        </li>                   
+                    </ul>
+                </nav>
+            </div>   
+            <!-- fin de columna -->
+        </footer>
+        <!-- fin de footer -->
+        <!-- complementos de boostrap y fontawesome -->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="/servicios/js/funcionalidad.js"></script>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/ff88d5f5cd.js" crossorigin="anonymous"></script>
+        <script src="http://www.w3schools.com/lib/w3data.js"></script>
+        <script>
+            w3IncludeHTML();
+        </script>        
+        <!-- fin de complementos -->
+    </body>
+</html>
