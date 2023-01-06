@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/servicios/css/style_inicio.css">
+    <title>Sesión</title>
+</head>
+<body>
+    <main>
+        <!-- contenedor principal -->
+        <div class="contenedor_todo">
+            <!-- apartado de información -->
+            <div class="caja_trasera">
+                <div class="caja_trasera_login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Inicia sesión para entrar en la página</p>
+                    <button id = "btn_iniciar">Iniciar sesión</button>
+                </div>
+                <div class="caja_trasera_register">
+                    <h3>¿Aún no tienes una cuenta?</h3>
+                    <p>Registrate para que puedas iniciar sesión</p>
+                    <button id = "btn_register">Registrarse</button>
+                </div>
+            </div>
+            <!-- fin de apartado de información -->
+            <!-- formularios -->
+            <div class="contenedor_login_register">
+                <!-- formulario de inicio -->
+                <form id = "logi" class="formulario_login">
+                    <h2>Iniciar Sesión</h2>
+                    <input type="email" id="correoLog" placeholder="Correo Electrónico">
+                    <input type="password" id="passLog" placeholder="Contraseña">
+                    <button type="submit">Entrar</button>
+                </form>
+                <!-- fin de formulario inicio -->
+                <!-- formulario registro -->
+                <form id = "reg" class="formulario_register">
+                    <h2>Registrarse</h2>
+                    <input type="text" id="nomSin" placeholder="Nombre completo">
+                    <input type="email" id="correoSin" placeholder="Correo Electrónico">
+                    <input type="password" id="passSin" placeholder="Contraseña">
+                    <button type="submit">Registrarse</buttonid=>                    
+                </form>
+                <!-- fin de formulario registro -->
+            </div>}
+            <!-- formularios -->
+        </div>
+        <!-- fin de contenedor -->
+    </main>    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/servicios/js/todo.js"></script>
+</body>
+</html>

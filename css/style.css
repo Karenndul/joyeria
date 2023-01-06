@@ -1,0 +1,91 @@
+/*Configuración del HTML*/
+body{
+    background-color: rgb(255, 210, 175);
+}
+/* configuración del menú */
+.navbar{
+    background-color: rgb(196, 107, 66);
+    color: black;
+    z-index: 10;
+}
+.pan{
+    color: black;
+}
+/*botón registar*/
+.inicio{    
+    background-color: rgb(241, 186, 144);
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inicio:hover{
+    background-color: rgba(246, 185, 156);
+}
+/*texto-header/footer*/
+a{
+    color: rgb(255, 255, 254) !important;
+    font-weight: bold;
+    text-decoration: none;
+    cursor:pointer;
+}
+/*cards de oro, chapa y baño*/
+.clasificacion{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+.card-text{
+    text-align: justify;
+}
+.card-title{
+    text-align: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*configuración de la lista de tipos de baños*/
+.tipos_baño{
+    list-style-type: circle;
+}
+/* footer */
+footer{
+    background-color: rgb(233, 150, 85);
+}
+i{
+    font-size: 25px;
+}
+.wa{
+    color: rgb(12, 202, 21);
+}
+.ins{
+    color: magenta;
+}
+.gps{
+    color: red;
+}
+/* paginación */
+.page-link{
+    color: dimgray !important;
+}
+/*interfaz de usuario*/
+/* menú */
+.list-group{    
+    background-color: aquamarine !important;
+}
+.options{
+    color: black !important;
+}
+.ver{
+    background-color: red;
+}
+/*carrucel*/
+.carr{
+    width: 80%;
+    margin-left: 10%;
+}
+/*eliminar carrito*/
+.basura{
+    color: red !important;
+}
